@@ -1,5 +1,6 @@
 import React from 'react'
 import '../about.css'
+import profile from '../assets/kranthi2.jpg'
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
           </p>
         </div>
         <div className='about-image'>
-          <img src="./src/assets/kranthi2.jpg" alt="Pacha Kranthi Kumar" />
+          <img src={profile} alt="Kranthi Kumar" />
         </div>
       </div>
     </section>
