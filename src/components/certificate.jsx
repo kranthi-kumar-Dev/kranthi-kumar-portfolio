@@ -1,5 +1,11 @@
 import React from 'react';
 import '../certificate.css';
+import smartbridge from '../assets/smartbridge.png';
+import excelr from '../assets/excelr logo.png';
+import udemy from '../assets/udemy logo.jpeg';
+import nptel from '../assets/nptel.png';
+import codio from '../assets/codio.png';
+import cisco from '../assets/cisco.png';
 
 const Certificates = () => {
 return (
@@ -9,7 +15,7 @@ return (
             <div className="certificate-card">
                 <div className="certificate-image">
                     <img
-                        src="./src/assets/smartbridge.png"
+                        src={smartbridge}
                         alt="logo"
                     />
                 </div>
@@ -24,7 +30,7 @@ return (
             <div className="certificate-card">
                 <div className="certificate-image">
                     <img
-                        src="./src/assets/excelr logo.png"
+                        src={excelr}
                         alt="logo"
                     />
                 </div>
@@ -39,7 +45,7 @@ return (
             <div className="certificate-card">
                 <div className="certificate-image">
                     <img
-                        src="./src/assets/udemy logo.jpeg"
+                        src={udemy}
                         alt="logo"
                     />
                 </div>
@@ -54,7 +60,7 @@ return (
             <div className="certificate-card">
                 <div className="certificate-image">
                     <img
-                        src="./src/assets/udemy logo.jpeg"
+                        src={udemy}
                         alt="logo"
                     />
                 </div>
@@ -69,7 +75,7 @@ return (
             <div className="certificate-card">
                 <div className="certificate-image">
                     <img
-                        src="./src/assets/udemy logo.jpeg"
+                        src={udemy}
                         alt="logo"
                     />
                 </div>
@@ -84,7 +90,7 @@ return (
             <div className="certificate-card">
                 <div className="certificate-image">
                     <img
-                        src="./src/assets/nptel.png"
+                        src={nptel}
                         alt="logo"
                     />
                 </div>
@@ -99,7 +105,7 @@ return (
             <div className="certificate-card">
                 <div className="certificate-image">
                     <img
-                        src="./src/assets/codio.png"
+                        src={codio}
                         alt="logo"
                     />
                 </div>
@@ -114,7 +120,7 @@ return (
             <div className="certificate-card">
                 <div className="certificate-image">
                     <img
-                        src="./src/assets/codio.png"
+                        src={codio}
                         alt="logo"
                     />
                 </div>
@@ -129,7 +135,7 @@ return (
             <div className="certificate-card">
                 <div className="certificate-image">
                     <img
-                        src="./src/assets/cisco.png"
+                        src={cisco}
                         alt="logo"
                     />
                 </div>

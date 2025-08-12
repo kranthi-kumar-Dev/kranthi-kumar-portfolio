@@ -1,5 +1,9 @@
 import React from 'react'
 import '../projects.css';
+import househunt from '../assets/projects/house hunt.png';
+import calculator from '../assets/projects/calculator.png';
+import numbergame from '../assets/projects/number game.png';
+import portfolio from '../assets/projects/portfolio.png';
 
 function Projects() {
   return (
@@ -8,7 +12,7 @@ function Projects() {
     <div className='project-grid'>
       <div className='project-container'>
         <div className='project-image'>
-            <img src="./src/assets/projects/house hunt.png" alt="Project 1" className='image' />
+            <img src={househunt} alt="Project 1" className='image' />
         </div>
         <div className='project-info'>
           <h2>House Hunt</h2>
@@ -22,7 +26,7 @@ function Projects() {
       </div>
       <div className='project-container'>
         <div className='project-image'>
-            <img src="./src/assets/projects/calculator.png" alt="Project 1" className='image'/>
+            <img src={calculator} alt="Project 1" className='image'/>
         </div>
         <div className='project-info'>
           <h2>Responsive Calculator</h2>
@@ -36,7 +40,7 @@ function Projects() {
       </div>
       <div className='project-container'>
         <div className='project-image'>
-            <img src="./src/assets/projects/number game.png" alt="Project 1" className='image' />
+            <img src={numbergame} alt="Project 1" className='image' />
         </div>
         <div className='project-info'>
           <h2>Number Guessing Game</h2>
@@ -50,7 +54,7 @@ function Projects() {
         </div>
         <div className='project-container'>
           <div className='project-image'>
-            <img src="./src/assets/projects/portfolio.png" alt="Project 1" className='image'/>
+            <img src={portfolio} alt="Project 1" className='image'/>
           </div>
         <div className='project-info'>
           <h2>Portfolio</h2>

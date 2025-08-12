@@ -1,5 +1,10 @@
 import React from "react";
 import "../contact.css";
+import githubIcon from "../assets/github.png";
+import linkedinIcon from "../assets/linkedin.png";
+import emailIcon from "../assets/email.png";
+import phoneIcon from "../assets/phone logo.png";
+import resumeIcon from "../assets/resume logo.png";
 
 function Contact() {
   return (
@@ -21,19 +26,19 @@ function Contact() {
       </form>
       <div className="social-links">
         <a href="https://github.com/kranthi-kumar-Dev" target="_blank" rel="noopener noreferrer">
-          <img src={"./src/assets/github.png"} alt="GitHub" />
+          <img src={githubIcon} alt="GitHub" />
         </a>
         <a href="https://www.linkedin.com/in/pacha-kranthi-kumar-7b1090291/" target="_blank" rel="noopener noreferrer">
-          <img src={"./src/assets/linkedin.png"} alt="LinkedIn" />
+          <img src={linkedinIcon} alt="LinkedIn" />
         </a>
         <a href="mailto:pachakranthi@gmail.com">
-          <img src={"./src/assets/email.png"} alt="Email" />
+          <img src={emailIcon} alt="Email" />
         </a>
         <a href="tel:+917702285590">
-          <img src={"./src/assets/phone logo.png"} alt="Phone" />
+          <img src={phoneIcon} alt="Phone" />
         </a>
         <a href={"/resume/kranthi_kumar_my_2025 resume.pdf"} target="_blank" rel="noopener noreferrer">
-          <img src={"./src/assets/resume logo.png"} alt="Resume" />
+          <img src={resumeIcon} alt="Resume" />
         </a>
       </div>
     </section>
