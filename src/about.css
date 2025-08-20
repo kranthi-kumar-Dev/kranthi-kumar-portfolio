@@ -35,7 +35,7 @@
     min-height: 100vh;
     background: linear-gradient(to bottom, #000000 90%, var(--bottom-color) 100%);
     padding: 60px 20px;
-    animation: bottomColorChange 100s infinite alternate ease-in-out;
+    animation: bottomColorChange 50s infinite alternate ease-in-out;
 }
 
 @keyframes bottomColorChange {
@@ -147,10 +147,10 @@
 /* Extra Small Screens */
 @media (max-width: 480px) {
     .about h1 {
-        font-size: 26px;
+        font-size: 20px;
     }
     .about p {
-        font-size: 14px;
+        font-size: 12px;
     }
     .about-image img {
         width: 200px;
