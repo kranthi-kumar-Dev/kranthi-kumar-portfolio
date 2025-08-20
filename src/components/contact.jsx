@@ -37,7 +37,7 @@ function Contact() {
         <a href="tel:+917702285590">
           <img src={phoneIcon} alt="Phone" />
         </a>
-        <a href={"/resume/kranthi_kumar_my_2025 resume.pdf"} target="_blank" rel="noopener noreferrer">
+        <a href={"/resume/kranthi_kumar_resume.pdf"} target="_blank" rel="noopener noreferrer">
           <img src={resumeIcon} alt="Resume" />
         </a>
       </div>
